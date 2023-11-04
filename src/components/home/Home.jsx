@@ -41,7 +41,7 @@ const Home = () => {
       {/* Lottie Animation */}
       <div className='relative lg:w-1/2 '>
         <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
-          <Lottie animationData={reader} loop={true} />
+          <Lottie className='bg-gray-100' animationData={reader} loop={true} />
         </div>
       </div>
     </div>
