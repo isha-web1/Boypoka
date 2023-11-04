@@ -1,10 +1,11 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Header from './components/header/Header';
 
 const App = () => {
   return (
     <div>
-      <h1>this is default page</h1>
+      <Header></Header>
       <Outlet></Outlet>
     </div>
   );
