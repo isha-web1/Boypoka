@@ -5,6 +5,8 @@ A simple React app build with react and router dom . using nested router with dy
 ## Live Link
 Hosted in Netlify -> [BoyPoka](https://bright-belekoy-85c143.netlify.app/)
 
+<img src="./public/boipoka.png"/>
+
 
 ## API
 
