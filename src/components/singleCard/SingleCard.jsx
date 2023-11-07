@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleCard = ({ book }) => {
     const {image, title, subtitle, price} = book;
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <Link to={`../book/${book.isbn13}`}>
+      <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
         <img
          className="object-cover w-full relative transition duration-200 transform hover:-translate-y-2 rounded-md"
@@ -19,6 +21,7 @@ const SingleCard = ({ book }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
